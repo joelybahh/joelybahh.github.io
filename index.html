@@ -11,7 +11,7 @@
     <meta name="description" content="Joel Gabriels, game programming portfolio!">
     <meta name="author" content="Joel Gabriel - BlackPandaStudios">    
 	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-    <link rel="shortcut icon" href="favicon.ico">  
+    <link rel="shortcut icon" href="vr.ico">  
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
     <!-- Global CSS -->
@@ -64,10 +64,12 @@
                 <section class="about section">
                     <div class="section-inner">
                         <h2 class="heading">About Me</h2>
-                        <div class="content">
-                            <p>Hello, I'm Joel, a unity developer / programmer with extensive knowledge in C# and Unity development (including VR projects). I also have a great knowledge of C++. I am motivated and eager to make a name in the game industry and have a love for VR and the potential of the technology! </p>             
-							<p>I am a pro-active learner and can easily adapt into different work environments. I have a friendly and approachable personality and always strive to get the best out of a situation. I hope you learnt a bit about me! Thank you for taking the time to look at my profile, have a nice day!</p>                        
-                        </div><!--//content-->
+                        <div class="content"> 	                            
+							<p>Hello, I'm Joel, a Unity Software/Game Developer with extensive knowledge in C# and the Unity development environment.</p> 
+							<p>I have a love for XR technologies and strive to be someone who can say they played apart in revolutionizing the way people work, by incorporating these methods of extended reality. I'm a creative problem solver and a fast learner. I love diving into aspects of software development I have never done before, as I get so much fulfillment in learning new things. I have a friendly and approachable personality and always strive to get the best out of a situation.</p>
+							<p>I am currently working as an XR Developer, working on software that will change the way architects, interior designs and alike, go about communicating their ideas. Although video game development was always my big dream, I've grown so much love for the vast range of industry's that can incorporate this technology and knowing that one day, my work can help shape the work of the future is very exciting!</p>
+							<p>I hope you learnt a bit about me! Have a nice day :)</p>
+						</div><!--//content-->
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
     
@@ -79,58 +81,65 @@
 							 <!--------------------------------------------------------FEATURED PROJECT START--------------------------------------------------------->
 					 
 							<div class="item featured text-center">
-                                <h3 class="title"><a href="https://welcometowonderlandvr.com/" target="_blank">Welcome To Wonderland - VR!</a></h3>
-                                <p class="summary">A VR challenge where you need to use your wits and puzzle solving skills to survive and escape the galaxy's most dangerous game show and stay one step ahead of its charismatic, crazed, omnipresent host. Welcome to Wonderland.</p>
+                                <h3 class="title"><a href="https://inspacexr.com/" target="_blank">River Fox - For the Architects of tomorrow!</a></h3>
+                                <p class="summary">River Fox is 1-click CAD to VR software for Architecture, Engineering and Construction (AEC) professionals. With pre-loaded design, analysis and communication tools for both desktop and VR, River Fox is for the architects of tomorrow.</p>
                                 <div class="featured-image">
                                     <a href="https://welcometowonderlandvr.com/" target="_blank">
-                                    <img class="img-responsive project-image" src="assets/images/projects/project-featured2.jpg" alt="project name" />
+                                    <img class="img-responsive project-image" src="assets/images/projects/RiverFox_Ad.PNG" alt="project name" />
                                     </a>
                                     <div class="ribbon">
                                         <div class="text">New</div>
                                         </div>
                                     </div>
                                     
-                                <div class="desc text-left">                                    
-                                    <p>
-										You play as a contestant in the Galaxies most popular and dangerous game show, Welcome to Wonderland. The overall goal is to collect all the keys to unlock the escape pod and 
-										ultimately, escape the show itself. 
-										<br>
-										The keys are collected by going through every ‘level’ and solving the puzzles/challenges in order to earn that levels key (You acquire this key inside the level). The keys are 
-										also used as a way to unlock the Arcade Zone, which is the contestants only source of fun and entertainment! However, this zone isn’t handed to them for free, 
-										every machine/game in that zone has to be earned through puzzle completion and challenges.
-										<br>
-										Once the player has earnt all the keys, they can unlock the space door and escape the show once and for good! 
-									</p>
-
-									<h2><b>Things I worked on!</b></h2></P> 
-									
-									<p><b>The VR Claw Machine logic</b>           - Omni-Directional Level using physics, Claw Automation etc.</P> 
-									<p><b>Elevator Asynchronous load in VR</b>    - Allows for each level to load around the player while they are in the elevator!</P> 
-									<p><b>Physics-Based Gumball Machine Logic</b> - Setup the gumball machine to work with physics, so the gumballs roll around the spiral, and into the dispenser.</P> 
-									<p><b>Physics Based Flick Switches</b> 		  - Setup logic for flick switches snapping to the left and right.</P> 
-									<p><b>Physics Based Light Switches</b> 		  - Setup logic for the light switches snapping to on and off.</P>
-									<p><b>VR Locomotion Prevention</b> 			  - Can't teleport while heads clipping through a wall, Can't teleport when your controller is obstructed from view.</P> 
-									<p><b>VR Body Awareness</b> 				  - Detects changes in height on the terrain and pops you up, allowing players to walk up and down stairs in VR.</P> 
-									<p><b>Ticket Swipe and Tap Mechanic</b> 	  - This feature gave the player the option to swipe or tap their card in VR to progress.</P> 
-									<p><b>Breakable Items Logic</b> 			  - This feature works similarly to Unity's LOD system, however instead, calculates what impact velocity is required to go to the next damage state.</P> 									 
-									<p><b>Gravity Toggle System</b>				  - A very simple mechanism, it takes in an array of rigidbodies, and sets their gravity to true or false depending on the puzzle state.</P> 		
-									<p><b>Teleporting With Items</b>		      - Programmed the logic for teleporting with items you're holding.</P> 
-									<p><b>Teleporting With a Bucket Of Items</b>  - Programmed the logic for teleporting with items you're holding that are in a container/bucket.</P> 
-									<p><b>Custom Physics On The Wheel of Fortune Needles</b>  - Programmed the logic for helping unity physics accuratly collide with the needle that slows down the wheel.</P> 
-									<p><b>Puzzle Tracker Logic</b>  - Programmed the logic for accurately tracking the players puzzle interactions. This communicates with the Voice Line system to play correct voice lines depending on their ability to solve puzzles.</P> 
-									<p><b>Teleporting With a Bucket Of Items</b>  - Programmed the logic for teleporting with items you're holding that are in a container/bucket.</P> 
-									<p><b>THE ABILITY TO WEAR HATS!</b>			  - I was the mad man behind the hat wearing mechanic! A simple but fun implementation to the game.</P> 
-									<p><b>THE ABILITY TO SMOKE CIGARS!</b>		  - I was also the mad man behind the cigar smoking! <i>I do not encourage anyone to take up smoking</i>.</P> 
-									
+                                <div class="desc text-left">     
+									<h2><b>Visualize your designs</b></h2></P>
+									<p> - Easy to use VR with intuitive controls.</p>
+									<p></p>
+									<p> - Save project time and make faster decisions through instant real-time viewing with 1 click CAD to VR.</p>
+									<p></p>
+									<p> - Truly experience your space with a range of simulation and perspective tools.</p>
+									<p></p>
+									<h2><b>Analyze the model</b></h2></P>
+									<p> - Pick up and reduce mistakes early.</p>
+									<p></p>
+									<p> - With River Fox you have all the information you need at your finger tips. </p>
+									<p></p>
+									<p> - Pull up BIM data, measure distances and toggle layers on and off directly within River Fox.</p>
+									<p></p>
+									<h2><b>Communicate your ideas</b></h2></P> 
+									<p> - Don't just talk, show. </p>
+									<p></p>
+									<p> - Win projects and command higher design fees with immersive story telling. </p>
+									<p></p>
+									<p> - No matter who you're working with, River Fox has tools to help communicate your views. Work across teams by screen capture, annotation and creating reports within VR.</p>
+									<p></p>
 								</div><!--//desc-->         
-                                <a class="btn btn-cta-primary pull-right" href="https://github.com/joelybahh/WelcomeToWonderland-BETA/tree/master/WelcomeToWonderland/Assets/Scripts"><i class="fa fa-github-square"></i> Github Source Code!</a>
-								<a class="btn btn-cta-secondary pull-left" href="http://vrlocomotionessentials.blogspot.com.au/" target="_blank"><i class="fa fa-archive"></i> Visit Website!</a>
+                                <a class="btn btn-cta-secondary pull-right" href="https://www.inspacexr.com/riverfox/pricing"><i class="fa fa-user-plus"></i> Signup Today!</a>
+								<a class="btn btn-cta-secondary pull-left"  href="https://www.inspacexr.com" target="_blank"><i class="fa fa-external-link"></i> Visit Website!</a>
+								<a class="btn btn-cta-primary pull-middle"  href="https://www.inspacexr.com/riverfox/trial" target="_blank"><i class="fa fa-archive"></i> Trial River Fox!</a>
                             </div><!--//item-->
 
 							<!--------------------------------------------------------FEATURED PROJECT END----------------------------------------------------------->
 							
 							<br>
                             <hr class="divider" />
+							
+							<div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="#"href=" target="_blank">
+                                <img class="img-responsive project-image" src="assets/images/projects/project-featured2.jpg" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="#" target="_blank">Welcome to Wonderland VR - Escape Room</a></h3>
+                                    <p> 
+									You play as a contestant in the Galaxies most popular and dangerous game show, Welcome to Wonderland. The overall goal is to collect all the keys to unlock the escape pod and ultimately, escape the show itself. 
+The keys are collected by going through every ‘level’ and solving the puzzles/challenges in order to earn that levels key (You acquire this key inside the level).
+									</p>
+                                    <p> <a class="more-link" href="http://vrlocomotionessentials.blogspot.com.au/" target="_blank"><i class="fa fa-external-link"></i> Find out more</a>  </p>
+									<p>	<a class="more-link" href="https://www.assetstore.unity3d.com/en/#!/content/90209" target="_blank"><i class="fa fa-external-link"></i> View On The Asset Store</a>  </p>
+									
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
 							
 							<div class="item row">
                                 <a class="col-md-4 col-sm-4 col-xs-12" href="#"href=" target="_blank">
